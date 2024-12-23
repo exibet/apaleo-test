@@ -8,5 +8,5 @@ export const routes: Routes = [
       import('./users/users.component').then((m) => m.UsersComponent),
     title: 'Users',
   },
-  { path: '**', redirectTo: '/users', pathMatch: 'full' },
+  { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
