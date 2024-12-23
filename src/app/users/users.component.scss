@@ -1,0 +1,21 @@
+:host {
+  ::ng-deep {
+    .p-paginator {
+      position: sticky;
+      bottom: 0;
+      justify-content: end;
+      padding: 1rem;
+      border-top: 1px solid var(--p-datatable-body-cell-border-color);
+      border-radius: 0;
+      margin-top: -1px;
+    }
+
+    .p-card-body {
+      padding: 0;
+    }
+
+    .p-inputtext {
+      width: 350px;
+    }
+  }
+}
